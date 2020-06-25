@@ -1,0 +1,12 @@
+% just an input file
+3 % order of the B-tree
+add 6 4 3 8 11 15 5 20 25 30 7 9 35 67 12 98 65 34 78 99 4 3 2 36 100 80 37 10 50 34 103 96 24 79 60 74 49 95 14 16 28 60 8 8 8 7 7 7 7 68 12 14 16 
+print test-1.txt 
+graph % print tree
+remove 4 10 24
+print % print sorted numbers to the standard output
+% add 80
+print + test-1.txt % print to file
+remove 6
+print + test-1.txt % append to file
+graph + test-1.txt % append to file
